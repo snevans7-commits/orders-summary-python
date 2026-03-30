@@ -78,7 +78,7 @@ If you are editing anything outside `report.py`, you are likely going in the wro
     orders-summary-python
     │
     ├── report.py
-    ├── requirements.txt
+    ├── pyproject.toml
     ├── README.md
     │
     └── tests
