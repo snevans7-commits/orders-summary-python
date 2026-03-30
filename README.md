@@ -55,8 +55,8 @@ orders-summary-python
 ├── README.md
 │
 └── tests
-  ├── fixtures.json
-  └── test_report.py
+    ├── fixtures.json
+    └── test_report.py
 Data
 Test data is located in:
 tests/fixtures.json
