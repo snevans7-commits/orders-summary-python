@@ -45,7 +45,7 @@ Do Not
 Do not modify test files
 Do not move or copy files into the tests/ directory
 Do not rename files or change the project structure
-Do not add configuration files (e.g., conftest.py) to fix imports
+Do not add configuration files (for example, conftest.py) to fix imports
 If you are editing anything outside report.py, you are likely going in the wrong direction.
 Project Structure
 orders-summary-python
@@ -55,9 +55,8 @@ orders-summary-python
 ├── README.md
 │
 └── tests
-    ├── fixtures.json
-    └── test_report.py
+  ├── fixtures.json
+  └── test_report.py
 Data
 Test data is located in:
 tests/fixtures.json
-
