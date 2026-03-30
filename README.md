@@ -41,27 +41,22 @@ If `min_amount` is provided, only include orders with computed amount greater th
 
 Results must be sorted by `key` ascending.
 
-## Setup & Run
+## Setup
 
-Create a virtual environment:
+**Install uv** (if not already installed)
 
-    python -m venv venv
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh  # Mac/Linux
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"  # Windows
+```
 
-Activate it:
+**Clone and run tests**
 
-Mac/Linux  
-    source venv/bin/activate  
-
-Windows  
-    venv\Scripts\activate  
-
-Install dependencies:
-
-    pip install -r requirements.txt
-
-Run tests:
-
-    pytest
+```bash
+git clone https://github.com/JayDi11a/orders-summary-python.git
+cd orders-summary-python
+uv run pytest
+```
 
 ## Important Notes
 
